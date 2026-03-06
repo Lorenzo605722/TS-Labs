@@ -2,6 +2,9 @@
 // Il backend ti manda i dati grezzi degli utenti e dei loro post.
 // Il tuo compito è pulirli, validarli e produrre un report finale.
 
+// 🧪 VALIDAZIONE DATI ASINCRONI CON TYPESCRIPT
+// Obiettivo: Trasformare dati grezzi API in modelli tipizzati sicuri tramite Type Guards e Discriminated Unions.
+
 interface UtenteBase {
     id:number,
     username:string,
